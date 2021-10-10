@@ -1,5 +1,4 @@
 import time
-from enum import Enum
 
 import board
 import usb_hid
@@ -25,15 +24,10 @@ pins = [
 keymap = [Keycode.A, Keycode.B, Keycode.C, Keycode.D, Keycode.E]
 
 
-class Switch_State(Enum):
-    ON = 1
-    OFF = 0
-
-
 class Switch:
     def __init__(self, pin, keycode):
         self.dio = get_dio_for_pin(pin)
-        self.state = Switch_State.ON
+        self.state = 0
         self.keycode = keycode
 
     def value(self):
@@ -55,11 +49,11 @@ switches = [Switch(pin, keymap[index]) for index, pin in enumerate(pins)]
 while True:
     for switch in switches:
         try:
-            if switch.state == Switch_State.ON:
-                if not switch.value:
+            if switch.state == 0:
+                if not switch.value():
                     kbd.press(switch.keycode)
             else:
-                if switch.value:
+                if switch.value():
                     kbd.release(switch.keycode)
         except ValueError:
             pass
