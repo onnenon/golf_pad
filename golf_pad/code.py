@@ -1,10 +1,9 @@
-import time
-
 import board
+import keypad
 import usb_hid
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
-from digitalio import DigitalInOut, Direction, Pull
+from digitalio import DigitalInOut, Direction
 
 # Turn the LED on
 led = DigitalInOut(board.LED)
@@ -23,39 +22,12 @@ pins = [
 
 keymap = [Keycode.A, Keycode.B, Keycode.C, Keycode.D, Keycode.E]
 
-
-class Switch:
-    def __init__(self, pin, keycode):
-        self.dio = get_dio_for_pin(pin)
-        self.state = 0
-        self.keycode = keycode
-
-    def value(self):
-        return self.dio.value
-
-    def toggle_state(self):
-        self.state = self.state + 1 % 2
-
-
-def get_dio_for_pin(pin):
-    dio = DigitalInOut(pin)
-    dio.direction = Direction.INPUT
-    dio.pull = Pull.UP
-    return dio
-
-
-switches = [Switch(pin, keymap[index]) for index, pin in enumerate(pins)]
+switches = keypad.Keys(pins, value_when_pressed=False, pull=True)
 
 while True:
-    for switch in switches:
-        try:
-            if switch.state == 0:
-                if not switch.value():
-                    kbd.press(switch.keycode)
-            else:
-                if switch.value():
-                    kbd.release(switch.keycode)
-        except ValueError:
-            pass
-        switch.toggle_state()
-    time.sleep(0.01)
+    event = switches.events.get()
+    if event:
+        if event.pressed:
+            kbd.press(keymap[event.key_number])
+        if event.released:
+            kbd.release(keymap[event.key_number])
