@@ -44,8 +44,11 @@ keyboard = Keyboard(usb_hid.devices)
 switches = keypad.Keys(pins, value_when_pressed=False, pull=True)
 
 while True:
-    if event := switches.events.get():
-        if event.pressed:
-            keyboard.press(keymap[event.key_number])
-        else:
-            keyboard.release(keymap[event.key_number])
+    try:
+        if event := switches.events.get():
+            if event.pressed:
+                keyboard.press(keymap[event.key_number])
+            else:
+                keyboard.release(keymap[event.key_number])
+    except Exception:
+        pass
