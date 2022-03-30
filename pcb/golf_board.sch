@@ -1,0 +1,487 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Female J0
+U 1 1 615E59A4
+P 1700 1250
+F 0 "J0" H 1728 1226 50  0000 L CNN
+F 1 "A" H 1728 1135 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 1250 50  0001 C CNN
+F 3 "~" H 1700 1250 50  0001 C CNN
+	1    1700 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L RPi_Pico:Pico U1
+U 1 1 615E34A8
+P 7350 4100
+F 0 "U1" H 7350 5315 50  0000 C CNN
+F 1 "Pico" H 7350 5224 50  0000 C CNN
+F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 7350 4100 50  0001 C CNN
+F 3 "" H 7350 4100 50  0001 C CNN
+	1    7350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 616206DF
+P 1700 1750
+F 0 "J1" H 1728 1726 50  0000 L CNN
+F 1 "B" H 1728 1635 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 1750 50  0001 C CNN
+F 3 "~" H 1700 1750 50  0001 C CNN
+	1    1700 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 61620F06
+P 1700 2250
+F 0 "J2" H 1728 2226 50  0000 L CNN
+F 1 "C" H 1728 2135 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 2250 50  0001 C CNN
+F 3 "~" H 1700 2250 50  0001 C CNN
+	1    1700 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 61621093
+P 1700 2750
+F 0 "J3" H 1728 2726 50  0000 L CNN
+F 1 "D" H 1728 2635 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 2750 50  0001 C CNN
+F 3 "~" H 1700 2750 50  0001 C CNN
+	1    1700 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 6162140E
+P 1700 3250
+F 0 "J4" H 1728 3226 50  0000 L CNN
+F 1 "E" H 1728 3135 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 3250 50  0001 C CNN
+F 3 "~" H 1700 3250 50  0001 C CNN
+	1    1700 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J5
+U 1 1 616217CE
+P 1700 3750
+F 0 "J5" H 1728 3726 50  0000 L CNN
+F 1 "F" H 1728 3635 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 3750 50  0001 C CNN
+F 3 "~" H 1700 3750 50  0001 C CNN
+	1    1700 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J6
+U 1 1 61621912
+P 1700 4250
+F 0 "J6" H 1728 4226 50  0000 L CNN
+F 1 "G" H 1728 4135 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 4250 50  0001 C CNN
+F 3 "~" H 1700 4250 50  0001 C CNN
+	1    1700 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J7
+U 1 1 6162DB91
+P 1700 4750
+F 0 "J7" H 1728 4726 50  0000 L CNN
+F 1 "H" H 1728 4635 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 4750 50  0001 C CNN
+F 3 "~" H 1700 4750 50  0001 C CNN
+	1    1700 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J8
+U 1 1 6162DDC0
+P 1700 5250
+F 0 "J8" H 1728 5226 50  0000 L CNN
+F 1 "I" H 1728 5135 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 5250 50  0001 C CNN
+F 3 "~" H 1700 5250 50  0001 C CNN
+	1    1700 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J9
+U 1 1 6162E3C7
+P 1700 5750
+F 0 "J9" H 1728 5726 50  0000 L CNN
+F 1 "J" H 1728 5635 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 5750 50  0001 C CNN
+F 3 "~" H 1700 5750 50  0001 C CNN
+	1    1700 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J10
+U 1 1 6162E8DF
+P 1700 6250
+F 0 "J10" H 1728 6226 50  0000 L CNN
+F 1 "K" H 1728 6135 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 6250 50  0001 C CNN
+F 3 "~" H 1700 6250 50  0001 C CNN
+	1    1700 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J11
+U 1 1 6162EBE4
+P 1700 6750
+F 0 "J11" H 1728 6726 50  0000 L CNN
+F 1 "L" H 1728 6635 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1700 6750 50  0001 C CNN
+F 3 "~" H 1700 6750 50  0001 C CNN
+	1    1700 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8050 3350 8350 3350
+Wire Wire Line
+	8350 3350 8350 2250
+Wire Wire Line
+	8350 800  2550 800 
+Wire Wire Line
+	1900 6550 2550 6550
+Wire Wire Line
+	1900 6050 2550 6050
+Connection ~ 2550 6050
+Wire Wire Line
+	2550 6050 2550 6250
+Wire Wire Line
+	1900 5550 2550 5550
+Connection ~ 2550 5550
+Wire Wire Line
+	2550 5550 2550 5750
+Wire Wire Line
+	1900 5050 2550 5050
+Connection ~ 2550 5050
+Wire Wire Line
+	2550 5050 2550 5250
+Wire Wire Line
+	1900 4550 2550 4550
+Connection ~ 2550 4550
+Wire Wire Line
+	2550 4550 2550 4750
+Wire Wire Line
+	1900 4050 2550 4050
+Connection ~ 2550 4050
+Wire Wire Line
+	2550 4050 2550 4250
+Wire Wire Line
+	1900 3550 2550 3550
+Wire Wire Line
+	2550 800  2550 1050
+Connection ~ 2550 3550
+Wire Wire Line
+	2550 3550 2550 3750
+Wire Wire Line
+	1900 3050 2550 3050
+Connection ~ 2550 3050
+Wire Wire Line
+	2550 3050 2550 3250
+Wire Wire Line
+	1900 2550 2550 2550
+Connection ~ 2550 2550
+Wire Wire Line
+	2550 2550 2550 2750
+Wire Wire Line
+	1900 2050 2550 2050
+Connection ~ 2550 2050
+Wire Wire Line
+	2550 2050 2550 2250
+Wire Wire Line
+	1900 1550 2550 1550
+Connection ~ 2550 1550
+Wire Wire Line
+	2550 1550 2550 1750
+Wire Wire Line
+	1900 1050 2550 1050
+Connection ~ 2550 1050
+Wire Wire Line
+	2550 1050 2550 1250
+Wire Wire Line
+	8050 3150 8200 3150
+Wire Wire Line
+	8200 3150 8200 950 
+Wire Wire Line
+	8200 950  6450 950 
+Wire Wire Line
+	2700 950  2700 1150
+Wire Wire Line
+	2700 6650 1900 6650
+Wire Wire Line
+	1900 6150 2700 6150
+Connection ~ 2700 6150
+Wire Wire Line
+	2700 6150 2700 6650
+Wire Wire Line
+	1900 5650 2700 5650
+Connection ~ 2700 5650
+Wire Wire Line
+	2700 5650 2700 6150
+Wire Wire Line
+	1900 5150 2700 5150
+Connection ~ 2700 5150
+Wire Wire Line
+	2700 5150 2700 5650
+Wire Wire Line
+	1900 4650 2700 4650
+Connection ~ 2700 4650
+Wire Wire Line
+	2700 4650 2700 5150
+Wire Wire Line
+	1900 4150 2700 4150
+Connection ~ 2700 4150
+Wire Wire Line
+	2700 4150 2700 4650
+Wire Wire Line
+	1900 3650 2700 3650
+Connection ~ 2700 3650
+Wire Wire Line
+	2700 3650 2700 4150
+Wire Wire Line
+	1900 3150 2700 3150
+Connection ~ 2700 3150
+Wire Wire Line
+	2700 3150 2700 3650
+Wire Wire Line
+	1900 2650 2700 2650
+Connection ~ 2700 2650
+Wire Wire Line
+	2700 2650 2700 3150
+Wire Wire Line
+	1900 2150 2700 2150
+Connection ~ 2700 2150
+Wire Wire Line
+	2700 2150 2700 2650
+Wire Wire Line
+	1900 1650 2700 1650
+Connection ~ 2700 1650
+Wire Wire Line
+	2700 1650 2700 2150
+Wire Wire Line
+	1900 1150 2700 1150
+Connection ~ 2700 1150
+Wire Wire Line
+	2700 1150 2700 1650
+Wire Wire Line
+	1900 1250 2550 1250
+Connection ~ 2550 1250
+Wire Wire Line
+	2550 1250 2550 1550
+Wire Wire Line
+	1900 1750 2550 1750
+Connection ~ 2550 1750
+Wire Wire Line
+	2550 1750 2550 2050
+Wire Wire Line
+	1900 2250 2550 2250
+Connection ~ 2550 2250
+Wire Wire Line
+	2550 2250 2550 2550
+Wire Wire Line
+	1900 3250 2550 3250
+Connection ~ 2550 3250
+Wire Wire Line
+	2550 3250 2550 3550
+Wire Wire Line
+	1900 3750 2550 3750
+Connection ~ 2550 3750
+Wire Wire Line
+	2550 3750 2550 4050
+Wire Wire Line
+	1900 4250 2550 4250
+Connection ~ 2550 4250
+Wire Wire Line
+	2550 4250 2550 4550
+Wire Wire Line
+	1900 4750 2550 4750
+Connection ~ 2550 4750
+Wire Wire Line
+	2550 4750 2550 5050
+Wire Wire Line
+	1900 5250 2550 5250
+Connection ~ 2550 5250
+Wire Wire Line
+	2550 5250 2550 5550
+Wire Wire Line
+	1900 5750 2550 5750
+Connection ~ 2550 5750
+Wire Wire Line
+	2550 5750 2550 6050
+Wire Wire Line
+	1900 6250 2550 6250
+Connection ~ 2550 6250
+Wire Wire Line
+	2550 6250 2550 6550
+Wire Wire Line
+	1900 6750 2550 6750
+Wire Wire Line
+	2550 6750 2550 6550
+Connection ~ 2550 6550
+Wire Wire Line
+	1900 6850 6450 6850
+Wire Wire Line
+	6450 6850 6450 4550
+Wire Wire Line
+	6450 4550 6650 4550
+Wire Wire Line
+	1900 6350 6350 6350
+Wire Wire Line
+	6350 6350 6350 4450
+Wire Wire Line
+	6350 4450 6650 4450
+Wire Wire Line
+	1900 5850 6250 5850
+Wire Wire Line
+	6250 5850 6250 4250
+Wire Wire Line
+	6250 4250 6650 4250
+Wire Wire Line
+	1900 5350 6150 5350
+Wire Wire Line
+	6150 5350 6150 4150
+Wire Wire Line
+	6150 4150 6650 4150
+Wire Wire Line
+	1900 4850 6050 4850
+Wire Wire Line
+	6050 4850 6050 4050
+Wire Wire Line
+	6050 4050 6650 4050
+Wire Wire Line
+	1900 4350 5950 4350
+Wire Wire Line
+	5950 4350 5950 3950
+Wire Wire Line
+	5950 3950 6650 3950
+Wire Wire Line
+	1900 3850 5850 3850
+Wire Wire Line
+	5850 3850 5850 3750
+Wire Wire Line
+	5850 3750 6650 3750
+Wire Wire Line
+	1900 3350 4550 3350
+Wire Wire Line
+	4550 3350 4550 3650
+Wire Wire Line
+	4550 3650 6650 3650
+Wire Wire Line
+	1900 2850 4650 2850
+Wire Wire Line
+	4650 2850 4650 3550
+Wire Wire Line
+	4650 3550 6650 3550
+Wire Wire Line
+	1900 2350 4750 2350
+Wire Wire Line
+	4750 2350 4750 3450
+Wire Wire Line
+	4750 3450 6650 3450
+Wire Wire Line
+	1900 1850 4850 1850
+Wire Wire Line
+	4850 1850 4850 3250
+Wire Wire Line
+	4850 3250 6650 3250
+Wire Wire Line
+	1900 1350 4950 1350
+Wire Wire Line
+	4950 1350 4950 3150
+Wire Wire Line
+	4950 3150 6650 3150
+Wire Wire Line
+	6650 4850 6550 4850
+Wire Wire Line
+	6550 4850 6550 4350
+Wire Wire Line
+	6550 2250 8350 2250
+Connection ~ 8350 2250
+Wire Wire Line
+	8350 3350 8350 4350
+Wire Wire Line
+	8350 4850 8050 4850
+Connection ~ 8350 3350
+Wire Wire Line
+	8050 4350 8350 4350
+Connection ~ 8350 4350
+Wire Wire Line
+	8350 4350 8350 4850
+Wire Wire Line
+	6650 4350 6550 4350
+Connection ~ 6550 4350
+Wire Wire Line
+	6550 4350 6550 3850
+Wire Wire Line
+	6650 3850 6550 3850
+Connection ~ 6550 3850
+Wire Wire Line
+	6550 3850 6550 3350
+Wire Wire Line
+	6650 3350 6550 3350
+Connection ~ 6550 3350
+Wire Wire Line
+	6550 3350 6550 2250
+$Comp
+L power:GND #PWR?
+U 1 1 616B2B7B
+P 8800 1850
+F 0 "#PWR?" H 8800 1600 50  0001 C CNN
+F 1 "GND" H 8805 1677 50  0000 C CNN
+F 2 "" H 8800 1850 50  0001 C CNN
+F 3 "" H 8800 1850 50  0001 C CNN
+	1    8800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1850 8350 1850
+Wire Wire Line
+	8350 800  8350 1850
+Connection ~ 8350 1850
+Wire Wire Line
+	8350 1850 8350 2250
+$Comp
+L power:+5V #PWR?
+U 1 1 616B808D
+P 6450 1300
+F 0 "#PWR?" H 6450 1150 50  0001 C CNN
+F 1 "+5V" H 6465 1473 50  0000 C CNN
+F 2 "" H 6450 1300 50  0001 C CNN
+F 3 "" H 6450 1300 50  0001 C CNN
+	1    6450 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 1300 6450 950 
+Connection ~ 6450 950 
+Wire Wire Line
+	6450 950  2700 950 
+Wire Wire Line
+	1900 2750 2550 2750
+Connection ~ 2550 2750
+Wire Wire Line
+	2550 2750 2550 3050
+$EndSCHEMATC
