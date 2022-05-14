@@ -7,7 +7,7 @@ authors = ["Stephen Onnen <stephen.onnen@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 adafruit-circuitpython-hid = "^5.1.1"
-Adafruit-Blinka = "^6.14.1"
+Adafruit-Blinka = "^7.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
