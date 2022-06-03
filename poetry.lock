@@ -1,6 +1,6 @@
 [[package]]
 name = "adafruit-blinka"
-version = "7.3.0"
+version = "8.0.0"
 description = "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython."
 category = "main"
 optional = false
@@ -297,11 +297,11 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "5d945f1a9ad0e4a72d0d6914b976163a3bb002f5a20f9a92ce79632b58424f51"
+content-hash = "256050c60681f11b33682259b131cf2009c40eac0b4f4e95081d462e71478a12"
 
 [metadata.files]
 adafruit-blinka = [
-    {file = "Adafruit-Blinka-7.3.0.tar.gz", hash = "sha256:2e3059bd35889040ed88d2439b49025859a7dec8b7fdf21c71463b3a7f61bae6"},
+    {file = "Adafruit-Blinka-8.0.0.tar.gz", hash = "sha256:ee820efd95839260736cbc6727d1c5caf8c9bee18480ef6d50ff8ab6f03a2e36"},
 ]
 adafruit-circuitpython-busdevice = [
     {file = "adafruit-circuitpython-busdevice-5.1.8.tar.gz", hash = "sha256:fc9717e8d053ab0168e04eaae4b6ace3023baef1e7046a8b72ff54eb512963aa"},
