@@ -2,14 +2,14 @@
 
 [[package]]
 name = "adafruit-blinka"
-version = "8.19.0"
+version = "8.20.0"
 description = "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython."
 category = "main"
 optional = false
 python-versions = ">=3.7.0"
 files = [
-    {file = "Adafruit-Blinka-8.19.0.tar.gz", hash = "sha256:be65e91dfdd9780cc39ed2beaf489aee5b24a28759aad20633282f946e5113fb"},
-    {file = "Adafruit_Blinka-8.19.0-py3-none-any.whl", hash = "sha256:95c3a58fcf1e820b295a994b21eeafef707525a9b9d6287f9085a7cccc05547b"},
+    {file = "Adafruit-Blinka-8.20.0.tar.gz", hash = "sha256:649d12d7cf4b2660c295d4a6d79e935200db7aeeb3df2469db648eddf982ee8b"},
+    {file = "Adafruit_Blinka-8.20.0-py3-none-any.whl", hash = "sha256:ca7188922a216240d5da24e987cf7fb1c696df4bccfef78e9db21ea5a1e8ba7e"},
 ]
 
 [package.dependencies]
