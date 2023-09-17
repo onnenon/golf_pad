@@ -2,19 +2,19 @@
 
 [[package]]
 name = "adafruit-blinka"
-version = "8.20.1"
+version = "8.22.3"
 description = "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython."
 category = "main"
 optional = false
 python-versions = ">=3.7.0"
 files = [
-    {file = "Adafruit-Blinka-8.20.1.tar.gz", hash = "sha256:9710ed5b6fe216d2a40c9bd869ae14123bb9a5c12489b9579645395537477922"},
-    {file = "Adafruit_Blinka-8.20.1-py3-none-any.whl", hash = "sha256:a2cc53fb2157427e5271db6656f1635726929f1b81dbc817893e707f1b2a54ce"},
+    {file = "Adafruit-Blinka-8.22.3.tar.gz", hash = "sha256:f3ac2310c1a8a4b19c951caa90ba9818b0e13357436f0eb8111280b52c22f462"},
+    {file = "Adafruit_Blinka-8.22.3-py3-none-any.whl", hash = "sha256:f240512b46686725c2189b129e4cbf9d713728a2900c8f06aaae6b41c4dfcf53"},
 ]
 
 [package.dependencies]
 adafruit-circuitpython-typing = "*"
-Adafruit-PlatformDetect = ">=3.13.0"
+Adafruit-PlatformDetect = ">=3.52.0"
 Adafruit-PureIO = ">=1.1.7"
 pyftdi = ">=0.40.0"
 
@@ -64,13 +64,14 @@ adafruit-circuitpython-busdevice = "*"
 
 [[package]]
 name = "adafruit-platformdetect"
-version = "3.15.3"
+version = "3.52.0"
 description = "Platform detection for use by libraries like Adafruit-Blinka."
 category = "main"
 optional = false
-python-versions = ">=3.6.0"
+python-versions = "*"
 files = [
-    {file = "Adafruit-PlatformDetect-3.15.3.tar.gz", hash = "sha256:726782879e1dc18c1b2f50301ab3f04c3a7817a54e35c955ee2bb64a6d60df74"},
+    {file = "Adafruit-PlatformDetect-3.52.0.tar.gz", hash = "sha256:472740c88cd645543eff10953ed6781d0ede087f1cc5e1d6d578c4ba95a502a7"},
+    {file = "Adafruit_PlatformDetect-3.52.0-py3-none-any.whl", hash = "sha256:0e85481fb3939e530470eb7759c81dc8559e0a3ad06faffc2c325cc695235f1e"},
 ]
 
 [[package]]
