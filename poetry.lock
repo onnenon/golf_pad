@@ -35,14 +35,14 @@ adafruit-circuitpython-typing = "*"
 
 [[package]]
 name = "adafruit-circuitpython-hid"
-version = "5.3.6"
+version = "6.0.0"
 description = "CircuitPython helper library for simulating HID devices."
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "adafruit-circuitpython-hid-5.3.6.tar.gz", hash = "sha256:373905371f2934c6c2da60af510c1d54665b28cc1394e8ddfbe78d297f2056f2"},
-    {file = "adafruit_circuitpython_hid-5.3.6-py3-none-any.whl", hash = "sha256:9ecfe9dcb0e9c310b4a99fe76cecf8f29c3ee5aef68f98abba128e1844188f34"},
+    {file = "adafruit-circuitpython-hid-6.0.0.tar.gz", hash = "sha256:3e81d08f2b3352dbef643bfb915d142cbe504c9a752e6477c9033a038e366c81"},
+    {file = "adafruit_circuitpython_hid-6.0.0-py3-none-any.whl", hash = "sha256:53ca07685ba23f962eab21f16ac2223f4caa77089ffcdeb10971b9dd399f82fb"},
 ]
 
 [package.dependencies]
@@ -421,4 +421,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "256050c60681f11b33682259b131cf2009c40eac0b4f4e95081d462e71478a12"
+content-hash = "8fcb3221a093aedb420c35530ef563d51ea22f7eafd6c4f1195278a62ed83de7"
