@@ -35,14 +35,14 @@ adafruit-circuitpython-typing = "*"
 
 [[package]]
 name = "adafruit-circuitpython-hid"
-version = "6.0.0"
+version = "6.0.1"
 description = "CircuitPython helper library for simulating HID devices."
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "adafruit-circuitpython-hid-6.0.0.tar.gz", hash = "sha256:3e81d08f2b3352dbef643bfb915d142cbe504c9a752e6477c9033a038e366c81"},
-    {file = "adafruit_circuitpython_hid-6.0.0-py3-none-any.whl", hash = "sha256:53ca07685ba23f962eab21f16ac2223f4caa77089ffcdeb10971b9dd399f82fb"},
+    {file = "adafruit-circuitpython-hid-6.0.1.tar.gz", hash = "sha256:112e4bed8efb51a11ce643374c3584254dcf401b34ccddb3e07efe3c21c0a434"},
+    {file = "adafruit_circuitpython_hid-6.0.1-py3-none-any.whl", hash = "sha256:5d0e76b4d2afc3a456f242c7e5edca5d08b1c6d9cc2c03da5f19c43eb8658305"},
 ]
 
 [package.dependencies]
